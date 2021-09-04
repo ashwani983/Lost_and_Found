@@ -14,10 +14,10 @@
     if (userName.length()>0) {
     	session.setAttribute("msg", "You are Register sucessfull");
     	session.setAttribute("userid", userName);
-        response.sendRedirect("Dashboard.jsp");
+        response.sendRedirect("../Dashboard.jsp");
         
     } else {
-        response.sendRedirect("../index.jsp");
+        response.sendRedirect("../../index.jsp");
         session.setAttribute("msg", "You are Register sucessfull");
     }
 %>

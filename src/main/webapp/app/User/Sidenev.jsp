@@ -3,7 +3,7 @@
     <li class="center no-padding">
       <div class="indigo darken-2 white-text" style="height: 180px;">
         <div class="row">
-          <img style="margin-top: 5%;" width="100" height="100" src="../img/avatar.png" />
+          <img style="margin-top: 5%;" width="100" height="100" src="../../img/avatar.png" />
 
           <p style="margin-top: -13%;">
             <%=session.getAttribute("userid")%>
@@ -11,29 +11,13 @@
         </div>
       </div>
     </li>
-	
-    <li id="dash_dashboard"><a class="waves-effect" href="Dashboard.jsp"><b>Dash board</b></a></li>
-    <li id="dash_dashboard"><a class="waves-effect" href="Social_page.jsp"><b>Posts</b></a></li>
+
+    
+    <li id="dash_dashboard"><a class="waves-effect" href="Social_page.jsp"><b>Post</b></a></li>
+    <li id="dash_dashboard"><a class="waves-effect" href="Dashboard_user.jsp"><b>Dash board</b></a></li>
 
     <ul class="collapsible" data-collapsible="accordion">
-      <li id="dash_users">
-        <div id="dash_users_header" class="collapsible-header waves-effect"><b>Users</b></div>
-        <div id="dash_users_body" class="collapsible-body">
-          <ul>
-            <li id="users_seller">
-              <a class="waves-effect" style="text-decoration: none;" href="User_Management.jsp">View Users</a>
-            </li>
-
-            <li id="users_customer">
-              <a class="waves-effect" style="text-decoration: none;" href="User_Management.jsp">Add User</a>
-            </li>
-            <li id="users_customer">
-              <a class="waves-effect" style="text-decoration: none;" href="User_Management.jsp">Remove User</a>
-            </li>
-          </ul>
-        </div>
-      </li>
-		  
+       
       <li id="dash_products">
         <div id="dash_products_header" class="collapsible-header waves-effect"><b>Report Incident</b></div>
         <div id="dash_products_body" class="collapsible-body">

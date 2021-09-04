@@ -11,8 +11,13 @@
     rs = st.executeQuery("select * from user where userName='" + userName + "' and password='" +password + "'"); */
     if (userName.contains("admin") && password.contains("admin")) {
         session.setAttribute("userid", userName);
-        response.sendRedirect("Dashboard.jsp");
-    } else {
+        response.sendRedirect("../Dashboard.jsp");
+    }
+    else if (userName.contains("user") && password.contains("user")) {
+        session.setAttribute("userid", userName);
+        response.sendRedirect("../User/Social_page.jsp");
+    }
+    else {
         out.println("Invalid password <a href='../index.jsp'>try again</a>");
     }
 %>

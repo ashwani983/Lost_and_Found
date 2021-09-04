@@ -3,7 +3,7 @@
   	
     <ul class="dropdown-content" id="user_dropdown">
       <li><a class="indigo-text" href="User_profile.jsp">Profile</a></li>
-      <li><a class="indigo-text" href="./main/logout.jsp">Logout</a></li>
+      <li><a class="indigo-text" href="../main/logout.jsp">Logout</a></li>
     </ul>
 
     <nav class="indigo" role="navigation">

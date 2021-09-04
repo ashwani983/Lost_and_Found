@@ -15,7 +15,7 @@
     <div class="container">
       <div class="forms-container">
         <div class="signin-signup">
-          <form class="sign-in-form" method="post" action="app/login.jsp">
+          <form class="sign-in-form" method="post" action="app/main/login.jsp">
             <h2 class="title">Sign in</h2>
             <div class="input-field">
               <i class="fas fa-user"></i>
@@ -29,7 +29,7 @@
             <input type="reset" value="Reset" class="btn solid" />
             
           </form>
-          <form class="sign-up-form" method="post" action="app/userRegistration.jsp">
+          <form class="sign-up-form" method="post" action="app/main/userRegistration.jsp">
             <h2 class="title">Sign up</h2>
             <div class="input-field">
               <i class="fas fa-user"></i>
