@@ -3,7 +3,7 @@
 <body>
 
   <%@include  file="Sidenev.jsp" %>
-  <%@include  file="../Dashboard_Header.jsp" %>
+  <%@include  file="Dashboard_Header.jsp" %>
 
 
   <main>
