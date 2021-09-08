@@ -1,5 +1,5 @@
 <!-- Site footer -->
-<footer class="indigo page-footer">
+<footer class= "indigo page-footer">
     <div class="container">
       <div class="row">
         <div class="col s12">
@@ -17,7 +17,7 @@
     </div>
     <div class="footer-copyright">
       <div class="container">
-         <span>Made By <a style='font-weight: bold;' href="#" target="_blank">Ashwani Kumar|Abhilash</a></span>
+         <span>Made By <a style='font-weight: bold;' href="#" target="_blank">Ashwani Kumar|Abhilash kumar</a></span>
       </div>
     </div>
 </footer>

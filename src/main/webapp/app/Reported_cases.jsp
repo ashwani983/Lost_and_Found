@@ -55,7 +55,7 @@
 	      <span class="w3-opacity">People Contacted</span>
 	    </li>
 	    <li class="w3-light-grey w3-padding-24">
-	      <button class="w3-button w3-green w3-padding-large">Check</button>
+	      <a href="Today_Report.jsp" class="w3-button w3-green w3-padding-large">Check</a>
 	    </li>
 	  </ul>
 	</div>

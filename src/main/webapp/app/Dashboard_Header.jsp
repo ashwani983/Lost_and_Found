@@ -36,7 +36,7 @@
       <div class="nav-wrapper indigo darken-2">
         <!-- <a style="margin-left: 20px;" class="breadcrumb" href="#!">Admin</a>
         <a class="breadcrumb" href="#!">Index</a> -->
-        <a style="margin-left: 20px;" class="breadcrumb" href="#!">Lost and Found DeshBoard</a>
+        <a style="margin-left: 20px;" class="breadcrumb" href="#!">Lost and Found DashBoard</a>
 		
         <div style="margin-right: 20px;" id="timestamp" class="right"></div>
       </div>

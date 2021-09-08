@@ -4,7 +4,7 @@
 #customers {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
-  width: 100%;
+  padding-left:50%;
 }
 
 #customers td, #customers th {
