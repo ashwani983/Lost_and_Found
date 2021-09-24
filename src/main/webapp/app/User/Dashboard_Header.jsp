@@ -2,8 +2,8 @@
  <header>
   	
     <ul class="dropdown-content" id="user_dropdown">
-      <li><a class="indigo-text" href="User_profile.jsp">Profile</a></li>
-      <li><a class="indigo-text" href="../main/logout.jsp">Logout</a></li>
+      <li><a class="indigo-text" href="${pageContext.request.contextPath}/app/User/User_profile.jsp">Profile</a></li>
+      <li><a class="indigo-text" href="${pageContext.request.contextPath}/app/main/logout.jsp">Logout</a></li>
     </ul>
 
     <nav class="indigo" role="navigation">
@@ -12,7 +12,7 @@
 		    if ((session.getAttribute("userid") == null) || (session.getAttribute("userid") == "")) {
 		%>
 		You are not logged in<br/>
-		<a href="../index.jsp">Please Login</a>
+		<a href="../../index.jsp">Please Login</a>
 		<%} else {
 		%>
 		Welcome <%=session.getAttribute("userid")%>
@@ -36,7 +36,7 @@
       <div class="nav-wrapper indigo darken-2">
         <!-- <a style="margin-left: 20px;" class="breadcrumb" href="#!">Admin</a>
         <a class="breadcrumb" href="#!">Index</a> -->
-        <a style="margin-left: 20px;" class="breadcrumb" href="#!">Lost and Found DeshBoard</a>
+        <a style="margin-left: 20px;" class="breadcrumb" href="#!">Lost and Found DashBoard</a>
 		
         <div style="margin-right: 20px;" id="timestamp" class="right"></div>
       </div>

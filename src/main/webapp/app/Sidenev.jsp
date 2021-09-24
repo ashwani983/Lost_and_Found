@@ -1,10 +1,10 @@
 <!-- Side Nav -->
+
 <ul id="slide-out" class="side-nav fixed z-depth-2">
     <li class="center no-padding">
       <div class="indigo darken-2 white-text" style="height: 180px;">
         <div class="row">
-          <img style="margin-top: 5%;" width="100" height="100" src="../img/avatar.png" />
-
+          <img style="margin-top: 5%;" alt="user images" width="100" height="100" src="${pageContext.request.contextPath}/Static/img/avatar.png"/>
           <p style="margin-top: -13%;">
             <%=session.getAttribute("userid")%>
           </p>

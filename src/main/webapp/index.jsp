@@ -1,21 +1,19 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@ page isELIgnored="false"%>
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/64d58efce2.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="style/indexstyle.css" />
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/Static/style/indexstyle.css" />
     <title>Lost and Found|Web Platform</title>
   </head>
   <body>
     <div class="container">
       <div class="forms-container">
         <div class="signin-signup">
-          <form class="sign-in-form" method="post" action="app/main/login.jsp">
+          <form class="sign-in-form" method="post" action="${pageContext.request.contextPath}/app/main/login.jsp">
             <h2 class="title">Sign in</h2>
             <div class="input-field">
               <i class="fas fa-user"></i>
@@ -29,7 +27,7 @@
             <input type="reset" value="Reset" class="btn solid" />
             
           </form>
-          <form class="sign-up-form" method="post" action="app/main/userRegistration.jsp">
+          <form class="sign-up-form" method="post" action="${pageContext.request.contextPath}/app/main/userRegistration.jsp">
             <h2 class="title">Sign up</h2>
             <div class="input-field">
               <i class="fas fa-user"></i>
@@ -68,7 +66,7 @@
               Sign up
             </button>
           </div>
-          <img src="img/log.png" class="image" alt="" />
+          <img src="${pageContext.request.contextPath}/Static/img/log.png" class="image" alt="" />
         </div>
         <div class="panel right-panel">
           <div class="content">
@@ -80,11 +78,11 @@
               Sign in
             </button>
           </div>
-          <img src="img/register.svg" class="image" alt="" />
+          <img src="${pageContext.request.contextPath}/Static/img/register.svg" class="image" alt="" />
         </div>
       </div>
     </div>
 
-    <script src="js/app.js"></script>
+    <script src="${pageContext.request.contextPath}/Static/js/app.js"></script>
   </body>
 </html>

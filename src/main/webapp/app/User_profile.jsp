@@ -99,7 +99,7 @@ input[type=password]:focus {
   <h2 style="text-align:center">User Profile</h2>
 
 	<div class="card">
-	  <img src="../img/team2.jpg" alt="John" style="width:100%">
+	  <img src="${pageContext.request.contextPath}/Static/img/team2.jpg" alt="John" style="width:100%">
 	  <h1><%=session.getAttribute("userid")%></h1>
 	  <p class="title">Email ID</p>
 	  <p>Contact Number</p>
