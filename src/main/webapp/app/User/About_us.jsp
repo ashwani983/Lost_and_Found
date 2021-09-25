@@ -8,6 +8,16 @@
   text-align: center;
   font-family: arial;
 }
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
 </style>
 <body>
 
@@ -17,7 +27,22 @@
  
   <main>
   
-	  <h1>This page is under construction</h1>
+	  <h2 style="text-align:center">User Profile</h2>
+
+	<div class="card">
+	  <img src="${pageContext.request.contextPath}/Static/img/avatar1.png" alt="Ashwani Kumar" style="width:100%">
+	  <h1>ASHWANI KUMAR</h1>
+	  <p class="title">asku20mca@cmrit.ac.in</p>
+	  <p>+91 84630 36898</p>
+	   <p>asku20mca</p>
+	</div>
+	<div class="card">
+	  <img src="${pageContext.request.contextPath}/Static/img/avatar2.png" alt="Ashwani Kumar" style="width:100%">
+	  <h1>ABHILASH KUMAR</h1>
+	  <p class="title">abku20mca@cmrit.ac.in</p>
+	  <p>+91 95725 60047</p>
+	   <p>abku20mca</p>
+	</div>
 	 
   </main>
 
