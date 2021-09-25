@@ -12,7 +12,7 @@
       </div>
     </li>
 	
-    <li id="dash_dashboard"><a class="waves-effect" href="Dashboard.jsp"><b>Dash board</b></a></li>
+    <li id="dash_dashboard"><a class="waves-effect" href="Dashboard.jsp"><b>Home</b></a></li>
     <li id="dash_dashboard"><a class="waves-effect" href="Social_page.jsp"><b>Posts</b></a></li>
 
     <ul class="collapsible" data-collapsible="accordion">

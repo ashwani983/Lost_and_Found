@@ -14,7 +14,7 @@
 
     
     <li id="dash_dashboard"><a class="waves-effect" href="Social_page.jsp"><b>Post</b></a></li>
-    <li id="dash_dashboard"><a class="waves-effect" href="Dashboard_user.jsp"><b>Dash board</b></a></li>
+    <li id="dash_dashboard"><a class="waves-effect" href="Dashboard_user.jsp"><b>Home</b></a></li>
 
     <ul class="collapsible" data-collapsible="accordion">
        
